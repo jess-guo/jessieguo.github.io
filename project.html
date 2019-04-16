@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jessie's final project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body style="background-color: #def2e1;">
+
+
+  <div id="mySidenav" class="nav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">Home</a>
+    <a href="about.html">About me</a>
+    <a href="w">Dream Pets</a>
+    <a href="https://www.w3schools.com/html/html_editors.asp">Source</a>
+    <a href="w">Contact Me</a>
+  </div>
+
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+
+  <div class="heading">
+    welcome!
+  </div>
+
+  <div class="centerimg">
+    <img class="resize" src="images/image.jpg" alt="self">
+  </div>
+
+</body>
+
+</html>
